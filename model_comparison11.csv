@@ -1,0 +1,6 @@
+Model,Test_Accuracy,Precision,Recall,F1_Score,Params_Millions,Train_Time_sec,Path
+EfficientNetB0,0.9627,0.9641,0.9627,0.9627,4.38,207.0,/content/saved_models/EfficientNetB0.h5
+MobileNetV2,0.9351,0.9364,0.9351,0.9346,2.59,194.4,/content/saved_models/MobileNetV2.h5
+ResNet50V2,0.9315,0.9338,0.9315,0.9315,24.09,249.9,/content/saved_models/ResNet50V2.h5
+DenseNet121,0.9195,0.9228,0.9195,0.9195,7.3,333.8,/content/saved_models/DenseNet121.h5
+Xception,0.8594,0.8656,0.8594,0.8583,21.39,442.5,/content/saved_models/Xception.h5

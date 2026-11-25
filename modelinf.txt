@@ -1,0 +1,5 @@
+architecture=EfficientNetB0
+input_size=224
+num_classes=14
+test_accuracy=0.9627
+dataset=user_provided_augmented_dataset

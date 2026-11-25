@@ -1,0 +1,113 @@
+/* =====================================================================
+   CULTURAL HERITAGE CLASSIFIER — CUSTOM THEME
+   ===================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap');
+
+/* ---------- Page background ---------- */
+.stApp {
+    background: linear-gradient(160deg, #1a1310 0%, #2b2016 45%, #1f1712 100%);
+    color: #f1e9dc;
+    font-family: 'Inter', sans-serif;
+}
+
+/* ---------- Main title ---------- */
+h1 {
+    font-family: 'Playfair Display', serif !important;
+    font-weight: 700 !important;
+    background: linear-gradient(90deg, #e8c07d, #c9932f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    padding-bottom: 4px;
+    letter-spacing: 0.5px;
+}
+
+/* subtitle / caption right under the title */
+[data-testid="stCaptionContainer"] {
+    text-align: center;
+    color: #d8c7a8 !important;
+    font-size: 0.95rem;
+}
+
+/* ---------- Body text ---------- */
+p, span, label, li {
+    color: #e9ddc9 !important;
+}
+
+/* ---------- File uploader box ---------- */
+[data-testid="stFileUploader"] {
+    background: rgba(255, 255, 255, 0.04);
+    border: 2px dashed #c9932f;
+    border-radius: 14px;
+    padding: 18px;
+}
+[data-testid="stFileUploader"] section {
+    background: transparent;
+}
+
+/* ---------- Uploaded image ---------- */
+[data-testid="stImage"] img {
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.45);
+    border: 1px solid rgba(201,147,47,0.4);
+}
+
+/* ---------- Success / prediction banner ---------- */
+[data-testid="stAlert"] {
+    background: linear-gradient(90deg, rgba(201,147,47,0.18), rgba(232,192,125,0.08));
+    border-left: 5px solid #c9932f;
+    border-radius: 10px;
+    font-size: 1.05rem;
+}
+
+/* ---------- Metric cards (Confidence / Civilization) ---------- */
+[data-testid="stMetric"] {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(201,147,47,0.35);
+    border-radius: 14px;
+    padding: 14px 10px;
+    text-align: center;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.3);
+}
+[data-testid="stMetricLabel"] {
+    color: #cbb185 !important;
+}
+[data-testid="stMetricValue"] {
+    color: #f3e2b8 !important;
+    font-family: 'Playfair Display', serif;
+}
+
+/* ---------- Subheaders ("Top 5 predictions") ---------- */
+h2, h3 {
+    color: #e8c07d !important;
+    font-family: 'Playfair Display', serif !important;
+    border-bottom: 1px solid rgba(201,147,47,0.3);
+    padding-bottom: 6px;
+}
+
+/* ---------- Progress bars ---------- */
+[data-testid="stProgress"] > div > div {
+    background: linear-gradient(90deg, #c9932f, #e8c07d) !important;
+    border-radius: 6px;
+}
+[data-testid="stProgress"] {
+    background-color: rgba(255,255,255,0.08);
+    border-radius: 6px;
+}
+
+/* ---------- Divider ---------- */
+hr {
+    border-color: rgba(201,147,47,0.3) !important;
+}
+
+/* ---------- Bottom caption (class list) ---------- */
+.stCaption, [data-testid="stCaptionContainer"] p {
+    color: #b3a281 !important;
+    font-size: 0.85rem;
+}
+
+/* ---------- Scrollbar (nice touch) ---------- */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-thumb { background: #c9932f; border-radius: 8px; }
+::-webkit-scrollbar-track { background: #1a1310; }
